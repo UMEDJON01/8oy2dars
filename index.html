@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home work</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div><input id="firstname" type="text" placeholder="First Name" /></div>
+      <div><input id="lastname" type="text" placeholder="Last Name" /></div>
+      <div><input id="age" type="number" placeholder="Age" /></div>
+      <div><input id="from" type="text" placeholder="From" /></div>
+      <div class="radio-group">
+        <p>is Married</p>
+        <label class="radio-container">
+          <input type="radio" name="ismarried" value="Yes" /> Yes
+          <span class="checkmark"></span>
+        </label>
+        <label class="radio-container">
+          <input type="radio" name="ismarried" value="No" /> No
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div><input id="job" type="text" placeholder="Job" /></div>
+      <br />
+      <button>Add</button>
+    </div>
+    <div id="cardContainer"></div>
+    <script src="./public/app.js"></script>
+  </body>
+</html>
